@@ -8,9 +8,10 @@
   box-sizing: border-box;
 }
 
-/* 2. Remove default margin */
+/* 2. Remove default margin and padding */
 * {
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -73,3 +74,10 @@ h6 {
 /********************************/
 /********* DESIGN SYSTEM ********/
 /********************************/
+/*
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+*/
