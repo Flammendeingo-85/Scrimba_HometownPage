@@ -137,20 +137,25 @@ body {
   align-items: center;
   padding-top: 30px;
   background-color: #f1faee;
+  
 }
 
 .activities_items {
   display: flex;
   margin: 30px;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
   font-size: 12px;
   width: 720px;
-  height: 226px;
+  height: 378px;
 }
 
 .activities__zoo {
+  display: flex;
+  flex-direction: column;
   width: 198px;
+  height: 100%;
   margin: 0px 50px;
 }
 .activities__zoo img {
@@ -160,7 +165,10 @@ body {
 }
 
 .activities__markthal {
+  display: flex;
+  flex-direction: column;
   width: 198px;
+  height: 100%;
   margin: 0px 50px;
 }
 
@@ -168,11 +176,13 @@ body {
   border-radius: 100%;
   width: 100px;
   height: 100px;
-  
 }
 
 .activities__euromast {
+  display: flex;
+  flex-direction: column;
   width: 198px;
+  height: 100%;
   margin: 0px 50px;
 }
 
