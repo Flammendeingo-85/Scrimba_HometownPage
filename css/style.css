@@ -77,6 +77,10 @@ AQUA: #A8DADC
 LIGHT BLUE: #457B9D
 DARK BLUE: #1D3557
 */
+
+/**********************************/
+/********* PERSONAL DESIGN ********/
+/**********************************/
 html {
   background-color: #a8dadc;
 }
@@ -88,9 +92,13 @@ body {
   margin: 50px auto;
   border: 10px solid white;
   border-radius: 50px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.hero {
+/**********************/
+/**** HERO SECTION ****/
+/**********************/
+#hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -105,25 +113,79 @@ body {
   border-radius: 40px 40px 0px 0px;
 }
 
-.hero h1 {
+#hero h1 {
   background-color: #457b9d;
   padding: 0px 10px;
   border-radius: 5px;
 }
 
-.hero h2 {
-  background-color: #1D3557;
+#hero h2 {
+  background-color: #1d3557;
   margin-top: 15px;
+  padding: 0px 10px;
+  border-radius: 5px;
 }
 
-.activities {
+/****************************/
+/**** ACTIVITIES SECTION ****/
+/****************************/
+#activities {
   display: flex;
   height: 378px;
   width: 720px;
   flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  background-color: #f1faee;
 }
 
-.guide {
+.activities_items {
+  display: flex;
+  margin: 30px;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 12px;
+  width: 720px;
+  height: 226px;
+}
+
+.activities__zoo {
+  width: 198px;
+  margin: 0px 50px;
+}
+.activities__zoo img {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
+
+.activities__markthal {
+  width: 198px;
+  margin: 0px 50px;
+}
+
+.activities__markthal img {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  
+}
+
+.activities__euromast {
+  width: 198px;
+  margin: 0px 50px;
+}
+
+.activities__euromast img {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
+
+/***********************/
+/**** GUIDE SECTION ****/
+/***********************/
+#guide {
   height: 394;
   width: 720px;
 }
