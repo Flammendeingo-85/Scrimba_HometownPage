@@ -106,7 +106,7 @@ body {
   color: #fff;
   height: 343px;
   width: 720px;
-  background-image: url("img/Rotterdam_Skyline.jpg");
+  background-image: url("./img/Rotterdam_Skyline.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
